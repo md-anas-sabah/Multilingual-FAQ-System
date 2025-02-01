@@ -35,11 +35,20 @@ GET /api/faqs/?lang=hi
 GET /api/faqs/?lang=bn
 ```
 
-## Running Tests
+## Testing and Code Quality
+
+Run tests:
 
 ```bash
-python manage.py test faqs
-```
+# Run all tests
+python manage.py test
+
+# Run with coverage report
+coverage run manage.py test
+coverage report
+
+# Check code style
+flake8 .
 
 ## Contributing
 
@@ -56,3 +65,4 @@ python manage.py test faqs
 - CKEditor
 - Google Translate API
 - Redis (optional)
+```
