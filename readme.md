@@ -49,6 +49,7 @@ coverage report
 
 # Check code style
 flake8 .
+```
 
 ## Contributing
 
