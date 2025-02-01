@@ -61,6 +61,7 @@ flake8 .
 
 ## Tech Stack
 
+```
 - Django
 - Django REST Framework
 - CKEditor
